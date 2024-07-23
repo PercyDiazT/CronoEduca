@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ver_Horario">
+    <RelativeLayout
+        android:id="@+id/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/Dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Dia"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/baseline_keyboard_double_arrow_right_24"
+            android:rotationY="180"/>
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_keyboard_double_arrow_right_24"
+            android:scaleType="centerInside"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/encabezado"
+        android:background="@drawable/border"
+        android:fontFamily="@font/poppins_medium"
+        android:divider="@color/lines"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/add"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="15dp"
+        android:background="@drawable/circle">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/plus"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

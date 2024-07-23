@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/bree_serif</item>
+        <item>@font/jetbrains_mono_bold</item>
+        <item>@font/jetbrains_mono_extrabold</item>
+        <item>@font/judson_bold</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_medium</item>
+    </array>
+</resources>

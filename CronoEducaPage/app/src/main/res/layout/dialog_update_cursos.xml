@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTextNombreCursoz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del curso" />
+
+    <EditText
+        android:id="@+id/editTextGrupoz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seccion o grupo" />
+
+    <Button
+        android:id="@+id/buttonUpdate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"/>
+</LinearLayout>

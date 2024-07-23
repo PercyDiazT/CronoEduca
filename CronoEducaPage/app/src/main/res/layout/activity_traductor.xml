@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".Traductor">
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Traductor"
+        android:textColor="@color/main"
+        android:textSize="35sp" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <EditText
+        android:id="@+id/editTextTranslate"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Ingresa un texto en castellano" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+    <Button
+        android:id="@+id/btnTranslate"
+        android:layout_width="192dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bordetextoazul"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Traducir"
+        android:textColor="#FFFF"
+        android:textSize="16sp" />
+</LinearLayout>
